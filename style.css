@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet");
+*{
+	font-family: 'Satisfy', cursive;
+	margin: 0;
+	padding: 0; 
+	color: white;
+}
+body{
+	background: url(regis.jpg) no-repeat;
+	padding: 0 10px;
+}
+.login-box{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	background : #fff;
+	border-radius: 4rem;
+	padding-bottom: 6rem;
+	padding-top: 7rem;
+	padding-right: 8rem;
+	padding-left: 9rem;
+	color: white;
+
+}
+.login-box h1{
+	float:left; 
+	font-size: 30px;
+	border-bottom: 4px ; 
+	margin-bottom: 45px;
+	padding: 12px 0;
+	color: white;
+	
+}
+.textbox{
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin: 8px 0;
+	color: white;
+	border: none; 
+	outline: none;
+	background:none;
+	color:white;
+	font-size: 18px;
+	width: 75%;
+	/*float: left;*/
+	margin: 0 10px;
+	border-bottom: 2px solid white;
+}
+.btn{
+	width: 80%;
+	background: none;
+	border: none;
+	color: white;
+	font-size: 18px;
+	padding: 8px;
+	margin-top:3%;
+	text-align: center;
+	border-radius: .3rem;
+	outline: none;
+	background-color: #00bab1;
+}
+.food {
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% ,-50%);
+	color: white;
+}
+.food h1{
+	font-size: 2.0rem;
+	text-align: center;
+	color: black;
+	background-color: #00bab1;
+	border-radius: .8rem;
+}
+.food h2{
+	font-size: 1.3rem;
+	width: 20%
+	text-align: center;
+	color: black;
+	background-color: #00bab1;
+	border-radius: .8rem;
+}
+.formcode{
+	text-align: center;
+	font-size: 25px;
+	width: 80%;
+}
+.formcode .postcode{
+	display: block;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2rem;
+	padding: .3rem;
+	border:none;
+	outline: none; 
+}
+.formcode button{
+	width: 40%;
+	text-align: center;
+	background:black;
+	color: white;
+	padding: .6rem;
+	margin: 1rem auto 0rem;
+	border: none;
+	border-radius: .3rem;
+}
+@media screen and (max-width: 700px){
+	.login-box{
+		width:100%;
+		float: none;
+	}
+	.food{
+		width:100%;
+		float: none;
+	}
+}
+
+
+
+
+
